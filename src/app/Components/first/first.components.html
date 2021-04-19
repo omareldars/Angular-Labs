@@ -1,0 +1,13 @@
+<h1>This is First Component</h1>
+<div>
+    <h6>Hard Way</h6>
+    <input type="text" [value]="name" placeholder="Enter Text" (keyup)="Change($event)">
+    <p>{{name}}</p>
+    <input type="button" (click)="default()" value="Get Default" >
+    
+    <h6>Easy Way</h6>
+    <input type="text" placeholder="Enter Text" [(ngModel)]="name" >
+    <p>{{name}}</p>
+    <input type="button" (click)="default()" value="Get Default">
+</div>
+
