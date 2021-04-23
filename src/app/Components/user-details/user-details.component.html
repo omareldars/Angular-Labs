@@ -1,0 +1,12 @@
+<div *ngIf="user == '[object Object]';else NoData">
+    <h1>Hello {{user.name | lowercase}}</h1>
+    <h3>Your ID: {{user.id |currency:'USD'}}</h3>
+    <h3>Your E-mail: {{user.email | uppercase}}</h3>
+    <h3>Your Phone: {{user.phone}}</h3>
+</div>
+
+<ng-template #NoData>
+    <div class="text-center">
+        <h2>Loading Data.....</h2>
+    </div>
+</ng-template>

@@ -1,0 +1,30 @@
+<!-- <div class="alert alert-success">
+    <h3 appCustom class="text-center">{{user.id}}</h3>
+    <h3 class="text-center">{{user.name}}</h3>
+    <h3 class="text-center"><a routerLink="{{user.id}}">{{user.email}}</a></h3>
+</div> -->
+
+<div>
+    <table class="table table-striped table-dark table-border text-center">
+        <thead>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Email</th>
+            <th scope="col">
+                <tr><td>City</td><td>Street</td></tr>
+            </th>
+            <th colspan="2">Actions</th>
+        </thead> 
+        <tbody>
+            <tr *ngFor="let user of users">
+                <th scope="row"><a routerLink="{{user.id}}">{{user.id}}</a></th>
+                <td>{{user.name}}</td>
+                <td>{{user.phone}}</td>
+                <td>{{user.email}}</td>
+                <td><tr><td class="m-1">{{user.address.city}}</td><td class="m-1">{{user.address.street}}</td></tr></td>
+                <td><tr><a class="m-2 btn btn-warning">Update</a> <a class="m-2 btn btn-danger">Delete</a></tr></td>
+            </tr>
+        </tbody>   
+    </table>
+    </div>

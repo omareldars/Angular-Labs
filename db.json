@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Raneem",
+      "email": "Raneem@gmail.com",
+      "phone": "0111222333",
+      "address": {
+        "city": "Saudi",
+        "street": "First"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ahmed",
+      "email": "Ahmed@gmail.com",
+      "phone": "0111222444",
+      "address": {
+        "city": "Emirates",
+        "street": "Second"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Haneen",
+      "email": "Haneen@gmail.com",
+      "phone": "0111222555",
+      "address": {
+        "city": "Mansora",
+        "street": "Third"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Yazeed",
+      "email": "Yazeed@gmail.com",
+      "phone": "0111222666",
+      "address": {
+        "city": "Dikirnis",
+        "street": "Fourth"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Logy",
+      "email": "Logy@gmail.com",
+      "phone": "0111222777",
+      "address": {
+        "city": "Zahayra",
+        "street": "Fifth"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Arwa",
+      "email": "Arwa@gmail.com",
+      "phone": "0111222888",
+      "address": {
+        "city": "Sherbeen",
+        "street": "Sixth"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Kareem",
+      "phone": "0111222999",
+      "email": "Kareem@gmail.com",
+      "address": {
+        "city": "Alex",
+        "street": "Seventh"
+      }
+    },
+    {
+      "id": "8",
+      "name": "omar",
+      "email": "omar@gmail.com",
+      "phone": "0111222111",
+      "address": {
+        "city": "Cairo",
+        "street": "Eighth"
+      }
+    },
+    {
+      "id": "9",
+      "name": "mohamed",
+      "email": "mohamed@gmail.com",
+      "phone": "0111222123",
+      "address": {
+        "city": "cairo",
+        "street": "ninth"
+      }
+    },
+    {
+      "id": "10",
+      "name": "riham",
+      "email": "riham@gmail.com",
+      "phone": "0111222456",
+      "address": {
+        "city": "mansoura",
+        "street": "tenth"
+      }
+    },
+    {
+      "id": "11",
+      "name": "abdullah",
+      "email": "abdullah@gmail.com",
+      "phone": "0111222789",
+      "address": {
+        "city": "alex",
+        "street": "eerr"
+      }
+    }
+  ]
+}
